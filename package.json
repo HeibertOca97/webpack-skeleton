@@ -1,0 +1,25 @@
+{
+  "name": "webpack-skeleton",
+  "version": "1.0.0",
+  "description": "This is a web skeleton to facilitate future web designs",
+  "private": true,
+  "scripts": {
+    "dev": "npx webpack --mode=development --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "Heibert Ocaña <heibertvts1997@gmail.com> (https://heibert-ocana.ga/)",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
